@@ -12,7 +12,7 @@ const colorMap = {
 };
 
 // Встав URL WebApp JSON сюди
-const JSON_URL = "https://script.google.com/home/projects/1yvZPABdmXqWKx4LHSGIe-R10pY1Zg1y2kOG1VgkaddnO555Z-oH6kJyX";
+const JSON_URL = "https://script.google.com/macros/s/AKfycbzEDcwnJboG1UXNC7K3GnfUE3UqzacG3VCBGn2k7I0GAVPCWRecRATg35NjUkALcOvahw/exec";
 
 fetch(JSON_URL)
   .then(response => response.json())
